@@ -96,7 +96,7 @@ function timeElapse(date){
 	var date = new Date(2010,11,15);
 	var current = Date();
 	var seconds = (Date.parse(current) - Date.parse(date)) / 1000;
-	var days = 10+Math.floor(seconds / (3600 * 24));
+	var days = 30+Math.floor(seconds / (3600 * 24));
 	seconds = seconds % (3600 * 24);
 	var hours = Math.floor(seconds / 3600);
 	if (hours < 10) {
