@@ -97,22 +97,25 @@ function timeElapse(date){
 	var current = Date();
 	var seconds = (Date.parse(current) - Date.parse(date)) / 1000;
 	var days = Math.floor(seconds / (3600 * 24));
+	document.write(seconds);
 	seconds = seconds % (3600 * 24);
+	document.write(seconds);
 	var hours = Math.floor(seconds / 3600);
 	if (hours < 10) {
 		hours = "0" + hours;
 	}
 	seconds = seconds % 3600;
+	document.write(seconds);
 	var minutes = Math.floor(seconds / 60);
 	if (minutes < 10) {
 		minutes = "0" + minutes;
 	}
 	seconds = seconds % 60;
+	document.write(seconds);
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	document.write(current);
-	document.write(date);
+	document.write("一个循环");
 	var result = "<span class=\"digit\">" + days + "</span> days <span class=\"digit\">" + hours + "</span> hours <span class=\"digit\">" + minutes + "</span> minutes <span class=\"digit\">" + seconds + "</span> seconds"; 
 	$("#elapseClock").html(result);
 }
