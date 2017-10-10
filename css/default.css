@@ -3,10 +3,10 @@
 #loveHeart{float:left;width:670px;height:625px}
 #garden{width:100%;height:100%}
 #elapseClock{text-align:right;font-size:18px;margin-top:10px;margin-bottom:10px}
-#words{font-family:"sans-serif";width:500px;text-align:center;font-size:26px;color:#666}
+#words{font-family:"sans-serif";width:500px;font-size:26px;color:#666}
 #messages{text-align:center;display:none}
 #elapseClock .digit{font-family:"digit";font-size:36px}
-#loveu{font-size:22px;margin-top:50px;text-align:center;display:none}
+#loveu{font-size:22px;margin-top:50px;margin-right:70px;text-align:right;display:none}
 #loveu .signature{margin-top:10px;font-size:22px;font-style:italic}
 #clickSound{display:none}
 #code{float:left;width:600px;height:600px;color:#333;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";font-size:18px}
